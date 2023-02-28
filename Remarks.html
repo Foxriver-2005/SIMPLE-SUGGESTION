@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dekut E-SUGGESTION BOX</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <a href="Home.html" target="_blank"> Homepage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="Remarks.html">Remarks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="Complaints.html" target="_blank">Compaints &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <span class="link"></span>
+        <p>
+            <h1>Remarks</h1>
+            <h3>Remarks means making a positive comment about something.</h3><br>
+            <p> You are then Required to make your comment based on what is happening in the school,what the University has did to you,your community,and other people.<br>What also the Univesrity intend to do and what has achieved so far.<br> Your comments
+                should <b>strictly liased with your role played in school either as a student,Teaching staff,Non teaching staff or other levels.</b><br><br><br>
+            </p>
+            <form action="insert1.php" method="post">
+                <label for="Role Played ">Select the role played in the University</label>
+                <select id="Role Played" name="Role Played">
+    <option value="Student">Student</option>
+    <option value="Teaching Staff">Teaching Staff</option>
+    <option value="Non_Teaching Staff">Non_Teaching Staff</option>
+    <option value="Other">Other</option>
+   </select><br><br><br>
+                <label for="Remarks">Remarks</label><br>
+                <textarea id="Remarks" name="Remarks" rows="10" cols="50" placeholder="Enter Your Remarks"></textarea><br>
+                <input type="image" src="submit.png" alt="Submit" width="100" height="50" required>
+            </form>
+</body>
+
+</html>

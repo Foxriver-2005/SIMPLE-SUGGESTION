@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dekut E-SUGGESTION BOX</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <a href="Home.html"> Homepage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="Remarks.html" target="_blank">Remarks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="Complaints.html">Compaints  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <span class="link"></span>
+        <h1>COMPLAINTS</h1>
+        <H3>A Compalint is a statement in which you express your disatisfaction with a particular situation</H3>
+        <p>Your complaint should liased with a particular situation in school <b>It should not be outside the school as this would be considered as an irrelevant complaint</b><br></p>
+        <p>You should also state your complaint based on <i>your role played in the University</i><br></p>
+        <p>Complaint should also be followed with what you expect to be done to solve that complaint<br></p>
+        <p>Make sure You State <em>Your Role Played in the University before Giving us Your Complaint</em><br><br><br></p>
+        <form action="insert2.php" method="post">
+            <label for="Role Played ">Select the role played in the University</label>
+            <select id="Role Played" name="Role Played">
+      <option value="Student">Student</option>
+      <option value="Teaching Staff">Teaching Staff</option>
+      <option value="Non_Teaching Staff">Non_Teaching Staff</option>
+      <option value="Other">Other</option>
+     </select><br><br><br>
+            <label for="Complaints">Complaints</label><br>
+            <textarea id="Complaints" name="Complaints" rows="10" cols="50" placeholder="Enter Your Complaints"></textarea><br>
+            <input type="image" src="submit.png" alt="Submit" width="100" height="50">
+        </form>
+</body>
+
+</html>

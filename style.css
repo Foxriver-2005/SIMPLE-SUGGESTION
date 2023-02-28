@@ -1,0 +1,21 @@
+body {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frm {
+    border: solid gray 1px;
+    width: 25%;
+    border-radius: 2px;
+    margin: 120px auto;
+    background: white;
+    padding: 50px;
+}
+
+#btn {
+    color: #fff;
+    background: #337ab7;
+    padding: 7px;
+    margin-left: 70%;
+}
